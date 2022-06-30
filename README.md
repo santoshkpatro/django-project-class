@@ -6,6 +6,9 @@ python3 -m venv venv
 ## 2) Activating venv
 ```
 source venv/bin/activate
+
+# Windows
+venv\Scripts\activate.bat
 ```
 
 ## 3) Installing Django in venv
@@ -37,3 +40,9 @@ path('', views.index),
 ```
 
 3) Visit that page
+
+## Adding templates
+Adding templates folder to settings.py - DIRS in templates
+```
+BASE_DIR / 'templates'
+```
